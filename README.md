@@ -126,7 +126,7 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 This study shows that **machine learning** can be effectively applied to **mental health sentiment analysis**, and models like SVM can assist in better understanding mental health scenarios.
 
 --- 
-## Team Members:
+## Team Members
 - Keyur Parkhi
 - Gourish Salgaonkar
 - Dev Vatnani
