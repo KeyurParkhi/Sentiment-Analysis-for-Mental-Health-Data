@@ -4,7 +4,7 @@ Sentiment classification of mental health text data using Natural Language Proce
 ---
 
 ## Problem Statement
-Mental health-related discussions are growing across online platforms, and there's an urgent need to automatically detect emotional sentiment in such conversations to facilitate timely interventions. This project focuses on building a machine learning pipeline that classifies user-generated mental health text into sentiment categories, helping in understanding the emotional state and potentially assisting healthcare support systems. The goal is to support **early understanding** of user sentiments through supervised machine learning and natural language processing for which we classify each text into:
+Mental health-related discussions are growing across online platforms, and there's an urgent need to automatically detect emotional sentiment in such conversations to facilitate timely interventions. This project focuses on building a machine learning pipeline that classifies mental health text into sentiment categories, helping in understanding the emotional state and potentially assisting healthcare support systems. The goal is to support **early understanding** of user sentiments through supervised machine learning models and natural language processing for which we classify each text into:
 - **Negative**
 - **Neutral**
 - **Positive**
