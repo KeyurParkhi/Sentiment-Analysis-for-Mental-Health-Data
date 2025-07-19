@@ -36,16 +36,13 @@ Mental health-related discussions are growing across online platforms, and there
 - Removed stopwords
 - Applied lemmatization
 - Vectorized using TF-IDF
-
 2. Model Training:
 - Split data into train-test sets
 - Trained classifiers (Logistic Regression, SVM, Naive-Bayes)
-
 3. Model Evaluation:
 - Compared model performance using classification reports
 - Analyzed overfitting via train-test accuracy gap
 - Visualized confusion matrices
-
 4. Best Performing Model:
 - Identified top-performing model using appropriate evaluation metrics
 
