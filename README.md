@@ -4,17 +4,16 @@ Sentiment classification of mental health text data using Natural Language Proce
 ---
 
 ## Problem Statement
-Mental health-related discussions are growing across online platforms, and there's an urgent need to automatically detect emotional sentiment in such conversations to facilitate timely interventions. This project focuses on building a machine learning pipeline that classifies user-generated mental health text into sentiment categories, helping in understanding the emotional state and potentially assisting healthcare support systems. We classify each text into:
+Mental health-related discussions are growing across online platforms, and there's an urgent need to automatically detect emotional sentiment in such conversations to facilitate timely interventions. This project focuses on building a machine learning pipeline that classifies user-generated mental health text into sentiment categories, helping in understanding the emotional state and potentially assisting healthcare support systems. The goal is to support **early understanding** of user sentiments through supervised machine learning and natural language processing for which we classify each text into:
 - **Negative**
 - **Neutral**
 - **Positive**
-The goal is to support **early understanding** of user sentiments through supervised machine learning and natural language processing.
 --- 
 
 ## Tools and Technologies
-- Languages & Libraries: Python, Pandas, NumPy, Matplotlib, Seaborn
+- Languages & Libraries: Python, Pandas, NumPy, Matplotlib
 - NLP Techniques: Tokenization, Lemmatization, TF-IDF Vectorization
-- Models: Logistic Regression, Naïve Bayes, K-Nearest Neighbors (KNN), SVM
+- Models: Logistic Regression, Naïve Bayes, SVM
 - Notebook: Google Colab / Jupyter Notebook
 ---
 
@@ -55,17 +54,14 @@ The goal is to support **early understanding** of user sentiments through superv
 - Logistic Regression
 - Support Vector Machine (SVM)
 - Naïve Bayes
-
 Each model was trained using the TF-IDF matrix and evaluated using accuracy, precision, recall, F1-score and confusion matrix.
 ---
 
 ## Model Evaluation
 
 ### 1. Logistic Regression
-
-**Accuracy**: `95.29%`
-
-**Classification Report**
+- **Accuracy**: `95.29%`
+- **Classification Report**
 | Class         | Precision | Recall | F1-score | Support |
 |---------------|-----------|--------|----------|---------|
 | **Negative**  | 0.97      | 0.88   | 0.92     | 129     |
@@ -76,18 +72,15 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 | **Macro avg** | 0.97      | 0.90   | 0.93     | 702     |
 | **Weighted avg** | 0.95   | 0.95   | 0.95     | 702     |
 
-**Confusion Matrix**:
+<pre> Confusion Matrix:
 [[114  14   1]
  [  2 484   0]
- [  2  14  71]]
+ [  2  14  71]] </pre>
 
 
  ### 2. Support Vector Machines
-
-**Accuracy**: `97.86%`
-
-**Classification Report**
-
+- **Accuracy**: `97.86%`
+- **Classification Report**
 | Class           | Precision | Recall | F1-score | Support |
 |-----------------|-----------|--------|----------|---------|
 | **Negative**    | 0.97      | 0.95   | 0.96     | 129     |
@@ -98,16 +91,14 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 | **Macro avg**   | 0.98      | 0.96   | 0.97     | 702     |
 | **Weighted avg**| 0.98      | 0.98   | 0.98     | 702     |
 
-**Confusion Matrix**:
+<pre> Confusion Matrix**:
 [[122   7   0]
  [  2 482   2]
- [  2   2  83]]
+ [  2   2  83]] </pre>
 
  ### 3. Naive-Bayes
-
-**Accuracy**: `79.20%`
-
-**Classification Report**
+- **Accuracy**: `79.20%`
+- **Classification Report**
 | Class           | Precision | Recall | F1-score | Support |
 |-----------------|-----------|--------|----------|---------|
 | **Negative**    | 1.00      | 0.38   | 0.55     | 129     |
@@ -118,10 +109,10 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 | **Macro avg**   | 0.92      | 0.54   | 0.60     | 702     |
 | **Weighted avg**| 0.84      | 0.79   | 0.75     | 702     |
 
-**Confusion Matrix**:
+<pre> Confusion Matrix**:
 [[ 49  80   0]
  [  0 486   0]
- [  0  66  21]]
+ [  0  66  21]] </pre>
 
 ---
 ## Conclusion
