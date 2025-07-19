@@ -19,7 +19,7 @@ The goal is to support **early understanding** of user sentiments through superv
 ---
 
 ## Dataset
-- Dataset Source: Kaggle - [NLP Mental Health Conversations](https://www.kaggle.com/datasets/thedevastator/nlp-mental-health-conversations)
+- Dataset Source: [Kaggle - NLP Mental Health Conversations](https://www.kaggle.com/datasets/thedevastator/nlp-mental-health-conversations)
 - The dataset contains **3512** text records of the conversations between the patient and the psychologist.
 - Features: 'Context' and 'Response'
 - Sentiment categories: **Negative**, **Neutral**, and **Positive**.
@@ -32,7 +32,7 @@ The goal is to support **early understanding** of user sentiments through superv
 ---
 
 ## Project Workflow
-1. Data Preprocessing:
+1. Text Data Preprocessing:
 - Cleaned raw text
 - Removed stopwords
 - Applied lemmatization
@@ -64,6 +64,7 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 ### 1. Logistic Regression
 
 **Accuracy**: `95.29%`
+
 **Classification Report**
 | Class         | Precision | Recall | F1-score | Support |
 |---------------|-----------|--------|----------|---------|
@@ -76,13 +77,15 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 | **Weighted avg** | 0.95   | 0.95   | 0.95     | 702     |
 
 **Confusion Matrix**:
- [[114  14   1]
+[[114  14   1]
  [  2 484   0]
  [  2  14  71]]
+
 
  ### 2. Support Vector Machines
 
 **Accuracy**: `97.86%`
+
 **Classification Report**
 
 | Class           | Precision | Recall | F1-score | Support |
@@ -96,13 +99,14 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 | **Weighted avg**| 0.98      | 0.98   | 0.98     | 702     |
 
 **Confusion Matrix**:
- [[122   7   0]
+[[122   7   0]
  [  2 482   2]
  [  2   2  83]]
 
  ### 3. Naive-Bayes
 
 **Accuracy**: `79.20%`
+
 **Classification Report**
 | Class           | Precision | Recall | F1-score | Support |
 |-----------------|-----------|--------|----------|---------|
@@ -115,7 +119,7 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 | **Weighted avg**| 0.84      | 0.79   | 0.75     | 702     |
 
 **Confusion Matrix**:
- [[ 49  80   0]
+[[ 49  80   0]
  [  0 486   0]
  [  0  66  21]]
 
