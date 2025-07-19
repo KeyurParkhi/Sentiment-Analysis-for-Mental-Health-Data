@@ -51,17 +51,19 @@ Mental health-related discussions are growing across online platforms, and there
 
 --- 
 ## Models Used
+Each model was trained using the TF-IDF matrix and evaluated using accuracy, precision, recall, F1-score and confusion matrix.
 - Logistic Regression
 - Support Vector Machine (SVM)
 - Naïve Bayes
-Each model was trained using the TF-IDF matrix and evaluated using accuracy, precision, recall, F1-score and confusion matrix.
 ---
 
 ## Model Evaluation
 
 ### 1. Logistic Regression
 - **Accuracy**: `95.29%`
+  
 - **Classification Report**
+  
 | Class         | Precision | Recall | F1-score | Support |
 |---------------|-----------|--------|----------|---------|
 | **Negative**  | 0.97      | 0.88   | 0.92     | 129     |
@@ -80,7 +82,9 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 
  ### 2. Support Vector Machines
 - **Accuracy**: `97.86%`
+  
 - **Classification Report**
+  
 | Class           | Precision | Recall | F1-score | Support |
 |-----------------|-----------|--------|----------|---------|
 | **Negative**    | 0.97      | 0.95   | 0.96     | 129     |
@@ -98,7 +102,9 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 
  ### 3. Naive-Bayes
 - **Accuracy**: `79.20%`
+  
 - **Classification Report**
+  
 | Class           | Precision | Recall | F1-score | Support |
 |-----------------|-----------|--------|----------|---------|
 | **Negative**    | 1.00      | 0.38   | 0.55     | 129     |
