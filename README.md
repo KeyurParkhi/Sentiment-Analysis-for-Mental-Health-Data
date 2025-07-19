@@ -69,7 +69,6 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 | **Negative**  | 0.97      | 0.88   | 0.92     | 129     |
 | **Neutral**   | 0.95      | 1.00   | 0.97     | 486     |
 | **Positive**  | 0.99      | 0.82   | 0.89     | 87      |
-|               |           |        |          |         |
 | **Accuracy**  |           |        | **0.95** | 702     |
 | **Macro avg** | 0.97      | 0.90   | 0.93     | 702     |
 | **Weighted avg** | 0.95   | 0.95   | 0.95     | 702     |
@@ -90,12 +89,11 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 | **Negative**    | 0.97      | 0.95   | 0.96     | 129     |
 | **Neutral**     | 0.98      | 0.99   | 0.99     | 486     |
 | **Positive**    | 0.98      | 0.95   | 0.97     | 87      |
-|                 |           |        |          |         |
 | **Accuracy**    |           |        | **0.98** | 702     |
 | **Macro avg**   | 0.98      | 0.96   | 0.97     | 702     |
 | **Weighted avg**| 0.98      | 0.98   | 0.98     | 702     |
 
-<pre> Confusion Matrix**:
+<pre> Confusion Matrix:
 [[122   7   0]
  [  2 482   2]
  [  2   2  83]] </pre>
@@ -110,12 +108,11 @@ Each model was trained using the TF-IDF matrix and evaluated using accuracy, pre
 | **Negative**    | 1.00      | 0.38   | 0.55     | 129     |
 | **Neutral**     | 0.77      | 1.00   | 0.87     | 486     |
 | **Positive**    | 1.00      | 0.24   | 0.39     | 87      |
-|                 |           |        |          |         |
 | **Accuracy**    |           |        | **0.79** | 702     |
 | **Macro avg**   | 0.92      | 0.54   | 0.60     | 702     |
 | **Weighted avg**| 0.84      | 0.79   | 0.75     | 702     |
 
-<pre> Confusion Matrix**:
+<pre> Confusion Matrix:
 [[ 49  80   0]
  [  0 486   0]
  [  0  66  21]] </pre>
